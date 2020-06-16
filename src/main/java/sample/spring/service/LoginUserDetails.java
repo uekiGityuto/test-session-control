@@ -20,12 +20,11 @@ public class LoginUserDetails extends org.springframework.security.core.userdeta
 		this.user = user;
 	}
 
-	public User getUser() {
-		return user;
-	}
-
-	/*
-	 * lombokを使わずに実装してみた
+	/* lombokを使わずに実装してみた
+	 * 
+	 * public User getUser() {
+	 *		return user;
+	 *	}
 	 * 
 	 * @Override
 	 * public int hashCode() {
